@@ -1,0 +1,111 @@
+#wx-excel-page{
+    padding: 10px;
+}
+/* 筛选列表 */
+.filter-container{
+    margin-bottom: 10px;
+}
+.filter-list{
+    padding: 5px 10px;
+}
+.filter-one{
+    margin: 0 5px;
+}
+.filter-one:hover{
+    background-color: aquamarine!important;
+}
+.filter-one-select{
+    background-color: aquamarine;
+}
+/* 干员展示 */
+.operator-show{
+    display: flex;
+    background-color: white;
+}
+.operator-left, .operator-right{
+    width: 50%;
+    height: 500px;
+}
+.operator-right{
+    
+}
+/* 干员展示 */
+.operator-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #120f11;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap:0px;
+    height: 500px;
+    overflow: auto;
+}
+.operator-one{
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    height: 100px;
+    margin: 8px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.operator-one-select{
+    box-shadow: #4ADE80 0px 0px 10px 2px;
+}
+.operator-one.none{
+    border: 0px;
+}
+.operator-one img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    margin-bottom: 5px;
+}
+/* 干员详情 */
+.selct-one-detail{
+    width: 100%;
+    padding: 20px 20px 0;
+    height: 500px;
+    border-radius: 5px;
+    border-width: 10px!important;
+    background-color: #fff;
+    text-align: center;
+}
+/* 边框颜色 */
+.border-level-1 { border: 2px solid #a2a2a2; }
+.border-level-2 { border: 2px solid #F3F4F6; }
+.border-level-3 { border: 2px solid #60A5FA; }
+.border-level-4 { border: 2px solid #4ADE80; }
+.border-level-5 { border: 2px solid #FACC15; }
+.border-level-6 { border: 2px solid #FB923C; }
+
+
+/* 局部滚动条样式（给容器添加 .custom-scrollbar 类） */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f8fafc;
+  border-radius: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1;
+}
+
+/* Firefox 局部适配 */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #e2e8f0 #f8fafc;
+}
